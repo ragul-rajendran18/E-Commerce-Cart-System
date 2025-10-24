@@ -42,7 +42,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1 className='head'>E‑commerce <logo>🛒</logo></h1>
+      <h1 className='head'>E‑commerce 🛒</h1>
       {message && <div className="message">{message}</div>}
       <div className="layout">
         <ProductList products={products} onAdd={addToCart} />
